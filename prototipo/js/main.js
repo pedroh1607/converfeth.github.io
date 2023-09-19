@@ -37,8 +37,8 @@ function convertToJSON() {
           headers: { "Content-Type": "application/json" }
         })
           .then((res) => res.json())
-          .then((data) => console.log(data))
-          .catch((err) => console.log(err));
+          .then((data) => alert("tudo certo"))
+          .catch((err) => alert("lilsbvszlril")) ;
       };
   
       reader.readAsArrayBuffer(file);
